@@ -1,20 +1,20 @@
 environments:
-    - name:
+    - name: dev
       configs:
           endpoints:
               production:
-                  url:
+                  url: 'https://localhost:9443/am/sample/pizzashack/v1/api/'
               sandbox:
-                  url:
+                  url: 'https://localhost:9443/am/sample/pizzashack/v1/api/'
           security:
               enabled:
               type:
               username:
               password:
           deploymentEnvironments:
-              - displayOnDevportal:
-                deploymentEnvironment:
-                deploymentVhost:
+              - displayOnDevportal: true
+                deploymentEnvironment: Default
+                deploymentVhost: localhost
               - displayOnDevportal:
                 deploymentEnvironment:  
                 deploymentVhost:
