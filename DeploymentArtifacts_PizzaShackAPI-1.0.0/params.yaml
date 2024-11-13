@@ -9,4 +9,4 @@ environments:
           deploymentEnvironments:
               - displayOnDevportal: true
                 deploymentEnvironment: Default
-                deploymentVhost: localhost 
+                deploymentVhost: localhost
